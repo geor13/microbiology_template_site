@@ -1,0 +1,265 @@
+.footer-micro{
+    width:100%;
+    background-color:var(--green-brand-color);
+    display:flex;
+    justify-content:space-around;
+    font-size:16vh;
+}
+
+.footer-micro .section{
+    color: white;
+    padding: 30px;
+}
+
+.section h1{
+    font-size:0.14em;
+    font-weight: normal;
+    border-left: 6px solid white;
+    padding-left: 8px;
+    
+}
+
+.section h2{
+    font-size: 0.1em;
+    padding-left: 18px;
+    font-weight: normal;
+    margin-top:2em;
+}
+
+.section p{
+    font-size: 0.1em;
+    font-weight: 300;
+    padding-left: 18px;
+    line-height: 1.8em;
+    margin-top:1em;
+
+}
+
+.section h4{
+    font-size:0.1em;
+    font-weight: 300;
+    padding: 1em 0;
+    padding-left: 18px;
+}
+
+
+
+.info-location-section{
+    width:40%;
+   
+}
+
+
+
+.footer-micro .services-section{
+    width:30%;
+}
+
+
+.footer-micro .services-section ul{
+    
+    padding:0 0 0 0.1em;
+    margin-top: 0.1em;
+    list-style: none;
+}
+
+.footer-micro .services-section ul li{
+  
+   margin-top:1.8em;
+   transition: transform 0.2s ease-in-out;
+
+}
+
+.footer-micro .services-section ul li:hover{
+    transform: translateX(10px);
+ }
+
+.footer-micro .services-section ul li::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f054';
+    display: inline-block;
+}
+
+.footer-micro .services-section ul a{
+    font-size: 0.1em;
+    font-weight:300;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.contact-section{
+    width: 30%;
+}
+
+
+.contact-section form{
+    font-size:2.2vh;
+    font-weight: 300;
+    margin-top:2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-micro .contact-section form .form-wrapper{
+    display: flex;
+
+}
+
+.contact-section input[type = "submit"]{
+    background-color: white;
+    border: none;
+    color: var(--green-brand-color);
+    width: 20%;
+    margin-top:2em;
+    padding: 1em 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.contact-section input[type = "email"]{
+    border: none;
+    border-radius:0 4px 4px 0;
+    font-size:1.5vh;
+    color: var(--gray-brand-color);
+    padding:0.6em;
+    width:60%;
+}
+
+
+.fa-envelope{
+    background-color: white;
+    color: var(--green-brand-color);
+    padding: 0.3em;
+    border-radius: 0.1em 0 0 0.1em;
+}
+
+.copyrights{
+    color: white;
+    width: 100%;
+    background-color:#2a5847;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.copyrights p{
+    font-size: 0.4em;
+    font-weight: 300;
+    display: inline-block;
+    margin: 0 1.5em;
+    padding: 0 0.5em;
+    border-left: 2px solid white;
+}
+
+.copyrights .paragraph-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#map-container{
+    width: 80%;
+    height: 50%;
+    margin:0.1em 0;
+    overflow-y: scroll;
+}
+
+.copyrights .paragraph-wrapper a{
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+
+
+
+
+/* === FOOTER STYLES RESPONSIVE-MOBILE === */
+
+@media screen and (max-width:480px){
+
+    .footer-micro{
+        flex-direction: column;
+    }
+
+    .footer-micro .info-location-section{
+        width: 100%;
+    }
+
+    .footer-micro .info-location-section p{
+        display: block;
+        width: 80%;
+    }
+    .footer-micro .contact-section{
+        width: 100%;
+    }
+    .footer-micro .services-section{
+        width: 100%;
+    }
+    #map-container{
+        width: 100%;
+        height: 50%;
+        margin:0.1em 0;
+        overflow-y: scroll;
+    }
+
+    #map-container{
+        width: 80%;
+        height: 150px;
+        margin:0.1em 0;
+        overflow-y: scroll;
+        display: block;
+    }
+
+    .copyrights{
+        height: 100px;
+    }
+
+    .copyrights p{
+        font-size: 2em;
+    }
+    
+} 
+
+
+@media screen and (min-width:480px) and (max-width:950px){
+
+    .footer-micro{
+        flex-direction: column;
+    }
+
+    .footer-micro .info-location-section{
+        width: 100%;
+    }
+
+    .footer-micro .info-location-section p{
+        display: block;
+        width: 80%;
+    }
+    .footer-micro .contact-section{
+        width: 100%;
+    }
+    .footer-micro .services-section{
+        width: 100%;
+    }
+
+    #map-container{
+        width: 80%;
+        height: 300px;
+        margin:0.1em 0;
+        overflow-y: scroll;
+        display: block;
+    }
+
+    .copyrights{
+        height: 100px;
+    }
+
+    .copyrights p{
+        font-size: 1.5em;
+    }
+}

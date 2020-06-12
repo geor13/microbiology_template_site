@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --green-brand-color:#4c9d7e;
+    --gray-brand-color:#707070;
+}
+
+body{
+    background-color:white;
+    height: 100%;
+    font-size: 1.7vw;
+
+}
+
+html{
+    height: 100%;
+    overflow-x: hidden;
+    
+}
+
+table,h1,h2,h3,h4,h5,h6,p{
+    cursor: default;
+}

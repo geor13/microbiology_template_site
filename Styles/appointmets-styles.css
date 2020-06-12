@@ -1,0 +1,172 @@
+/* STYLES FOR THE FIRST PAGE */
+
+.first-page{
+    width: 100%;
+    height: 84%;
+    display: flex;
+}
+
+.first-page .left-section{
+    display: flex;
+    width: 62%;
+    height: 100%;
+}
+
+.content-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0 3em 3em;
+}
+
+.content-wrapper h2{
+    font-size: 4.2vh;
+    font-weight: normal;
+    color:var(--green-brand-color);
+}
+
+.content-wrapper h4{
+    font-size: 2.2vh;
+    font-weight: 300;
+    color: var(--gray-brand-color);
+    margin: 1em 0;
+}
+
+#map-wrapper{
+    flex-grow: 1;
+    width: 100%;
+}
+
+.right-section{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-section .text-wrapper{
+    width:70%;
+    margin: auto;
+}
+
+.right-section .text-wrapper h2{
+    font-size: 3.4vh;
+    font-weight: normal;
+    color: var(--green-brand-color);
+    margin-bottom: 1em;
+}
+
+.right-section .text-wrapper td{
+    font-size: 2.2vh;
+    font-weight: 300;
+    color: var(--gray-brand-color);
+    margin-bottom: 2em;
+
+}
+
+.right-section .text-wrapper table tr{
+    margin-bottom: 2em;
+}
+
+.right-section .text-wrapper table{
+    width: 100%;
+    margin-bottom: 6em;
+}
+
+/* STYLES FOR THE SECOND PAGE */
+
+.second-page {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.second-page .left-section{
+    width: 38%;
+    height: 100%;
+}
+
+.second-page .left-section .section-wrapper h2{
+  font-size: 4.2vh;
+  color:var(--green-brand-color);
+  font-weight:normal;
+  margin-bottom: 1em;
+}
+
+.second-page .left-section .section-wrapper .form-element{
+    font-size: 1.5vh;
+    color: var(--green-brand-color);
+    font-weight: 300;
+    margin:7vh 0;
+  }
+
+.second-page .left-section .section-wrapper{
+
+    padding:2em 0 0 4em;    
+}
+
+.second-page .left-section .form-wrapper input[type = 'text']{
+    width: 80%;
+    border:1px solid var(--green-brand-color);
+    border-radius: 8px;
+    font-size: 1.5vh;
+    color: var(--gray-brand-color);
+    padding: 0.6em;
+    margin-top:0.5em;
+}
+
+.second-page .left-section .form-wrapper input[type = 'email']{
+    width: 80%;
+    border:1px solid var(--green-brand-color);
+    border-radius: 8px;
+    font-size: 1.5vh;
+    color: var(--gray-brand-color);
+    padding: 0.6em;
+    margin-top:0.5em;
+}
+
+.second-page .left-section .form-wrapper textarea{
+    width: 80%;
+    border:1px solid var(--green-brand-color);
+    border-radius: 8px;
+    font-size: 1.5vh;
+    color: var(--gray-brand-color);
+    padding: 0.6em;
+    margin-top:0.5em;
+}
+
+.second-page .left-section .form-wrapper input[type='submit']{
+    border: none;
+    color: white;
+    background-color:var(--green-brand-color) ;
+    font-size:2.2vh;
+    font-weight: normal;
+    padding: 0.4em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.second-page .left-section .form-wrapper input[type='submit']:hover{
+    border: 2px solid var(--green-brand-color);
+    background-color: white;
+    color: var(--green-brand-color);
+}
+
+.right-section{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.right-section .image-container{
+    height: 95%;
+    width: 100%;
+    background-image: url('../assets/Doctor-Photo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

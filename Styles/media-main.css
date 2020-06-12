@@ -1,0 +1,285 @@
+@media screen and (max-width:480px){
+
+    /* == FIRST PAGE RESPONSIVE - MOBILE === */
+
+    .first-page{
+        flex-direction: column;
+    }
+
+    .first-page .slider-wrapper{
+        width: 100%;
+        height: 70%;
+        margin: 0 auto;
+        z-index: -1;
+
+    }
+
+
+    .first-page .left-section{
+        width: 95%;
+        height: 70%;
+        margin: 0 auto;
+    }
+
+    .first-page .left-section .text-wrapper p{
+        padding:1em;
+        margin-top: 0.5em;
+    }
+
+    .first-page .left-section .text-wrapper .call-to-action{
+        width: 80%;
+        margin-top: 2em;
+        font-size:2.2vh;
+    }
+
+    .first-page .left-section .text-wrapper h2{
+        margin:0.6em;
+    }
+
+    /*=== SECOND PAGE RESPONSIVE - MOBILE == */
+
+    .second-page {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        margin-bottom:1em;
+        height: auto;
+    }
+
+    .second-page .cards{
+        display: none;
+    }
+
+    .second-page .examination-container{
+        display: none;
+    }
+
+    .responsive-buttons-exams{
+        display: block;
+        margin: 2em auto;
+        width: 80%;
+    }
+
+    .second-page .text p{
+        margin: 2em auto;
+    }
+
+    .displayed-examinations{
+        display: block;
+        background-color: var(--green-brand-color);
+        color:white;
+        display: block;
+        border: none;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 4px;
+        font-size: 4vw;
+        padding: 0.5em;
+        margin: 0.3em;
+
+    }
+
+    /* === THIRD PAGE RESPONSIVE - MOBILE === */
+
+    .third-page{
+        flex-direction: column-reverse;
+        height:100%;
+    }
+
+    .third-page .image-lab{
+        width: 100%;
+        height: 70%;
+        margin-bottom: 1em;
+    }
+
+    .third-page .text-lab{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-grow: 1;
+        
+    }
+
+
+        /* == FOURTH PAGE RESPONSIVE - MOBILE ==*/
+
+    .fourth-page{
+        flex-direction: column-reverse;
+    }
+
+    .fourth-page .text-personell{
+        width: 100%;
+        height: auto;
+        padding:0;
+        margin: 0;
+    }
+
+    .fourth-page .button-wrappers{
+        display: none;
+    }
+
+   .fourth-page .left-section{
+       width: 80%;
+       margin: 0 auto;
+
+   }
+
+   .page{
+       margin-bottom:60px ;
+   }
+
+   .first-page .slider-wrapper .dots .dot{
+                width: 10px;
+                height: 10px;
+                border-radius: 10px;
+   }
+
+   .third-page .image-lab .teleies .teleia{
+                width: 10px;
+                height: 10px;
+                border-radius: 10px;
+   }
+
+}
+
+/* === INDEX PAGE RESPONSIVE - TABLET === */
+
+@media screen and (min-width:480px) and (max-width:950px){
+
+        /* == FIRST PAGE RESPONSIVE - TABLET === */
+
+        .first-page{
+            flex-direction: column;
+        }
+    
+        .first-page .slider-wrapper{
+            width: 100%;
+            height: 70%;
+            margin: 0 auto;
+            z-index: -1;
+    
+        }
+    
+    
+        .first-page .left-section{
+            width: 95%;
+            height: 70%;
+            margin: 0 auto;
+        }
+    
+        .first-page .left-section .text-wrapper p{
+            padding:1em;
+            margin-top: 0.5em;
+        }
+    
+        .first-page .left-section .text-wrapper .call-to-action{
+            width: 80%;
+            margin-top: 2em;
+            font-size:2.2vh;
+        }
+    
+        .first-page .left-section .text-wrapper h2{
+            margin:0.6em;
+        }
+    
+        /*=== SECOND PAGE RESPONSIVE - TABLET == */
+    
+        .second-page {
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    
+        .second-page .cards{
+            display: flex;
+            height: 20vh;
+        }
+
+        .second-page .cards h2{
+            font-size:2vh;
+        }
+    
+        .responsive-buttons-exams{
+            display: none;
+            margin: 4em auto;
+            width: 80%;
+        }
+    
+        .second-page .text p{
+            margin: 2em auto;
+        }
+    
+        .displayed-examinations{
+            display: none;
+            background-color: var(--green-brand-color);
+            color:white;
+            display: block;
+            border: none;
+            width: 100%;
+            margin: 0 auto;
+            border-radius: 4px;
+            font-size: 4vw;
+            padding: 1em;
+            margin: 0.3em;
+    
+        }
+    
+        /* === THIRD PAGE RESPONSIVE - TABLET === */
+    
+        .third-page{
+            flex-direction: column-reverse;
+        }
+    
+        .third-page .image-lab{
+            width: 100%;
+            height: 70%;
+            margin-bottom: 3vh;
+        }
+    
+        .third-page .text-lab{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+            
+        }
+    
+    
+            /* == FOURTH PAGE RESPONSIVE - TABLET ==*/
+    
+        .fourth-page{
+            flex-direction: column-reverse;
+        }
+    
+        .fourth-page .text-personell{
+            width: 100%;
+            height: auto;
+            padding:0;
+            margin: 0;
+        }
+    
+        .fourth-page .button-wrappers{
+            display: none;
+        }
+    
+       .fourth-page .left-section{
+           width: 80%;
+           margin: 0 auto;
+    
+       }
+    
+       .page{
+           margin-bottom:80px ;
+       }
+
+       .first-page .slider-wrapper .dots .dot{
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+}
+
+        .third-page .image-lab .teleies .teleia{
+                width: 10px;
+                height: 10px;
+                border-radius: 10px;
+        }
+    
+}

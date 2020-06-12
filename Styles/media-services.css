@@ -1,0 +1,116 @@
+/* === RESPONSIVE - MOBILE === */
+
+@media screen and (max-width:480px){
+    .first-page{
+        flex-direction: column;
+        width: 100%;
+        height: 115%;
+        margin: 2em 0;
+     
+    }
+
+    .first-page .left-section{
+        width: 100%;
+        display: block;
+        z-index: 10;
+    }
+
+    .first-page .left-section .services{
+        margin: 1em;
+    }
+
+    .first-page .left-section .services li{
+        font-size: 3vw;
+    }
+
+
+    .first-page .right-section{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .second-page{
+        width: 100%;
+        height: auto;
+    }
+
+    .second-page h2{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .second-page .infos-wrapper{
+        overflow: visible;
+    }
+
+    .second-page .info-section{
+        flex-wrap: wrap;
+    }
+
+    .second-page .info-section .info{
+         width: 20%;
+        margin: 1em 2em;
+        flex-grow: 1;
+    }
+
+    #icon-next{display: none;}
+    #icon-wrapper{display: none;}
+}
+
+@media screen and (min-width:480px) and (max-width:950px){
+    .first-page{
+        flex-direction: column;
+        width: 100%;
+        height: 115%;
+        margin: 2em 0;
+    }
+
+    .first-page .left-section{
+        width: 100%;
+        display: block;
+    }
+
+    .first-page .left-section .services{
+        margin: 1em;
+    }
+
+    .first-page .left-section .services li{
+        font-size: 3vw;
+    }
+
+
+    .first-page .right-section{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .second-page{
+        width: 100%;
+        height: auto;
+    }
+
+    .second-page h2{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .second-page .infos-wrapper{
+        overflow: visible;
+    }
+
+    .second-page .info-section{
+        flex-wrap: wrap;
+    }
+
+    .second-page .info-section .info{
+        flex-grow: 0;
+        width: 20%;
+        margin: 1em 2em;
+    }
+
+    #icon-next{display: none;}
+    #icon-wrapper{display: none;}
+
+}

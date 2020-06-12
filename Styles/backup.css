@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:white;
+    height: 100%;
+    overflow-x: scroll;
+}
+
+html{
+    height: 100%;
+    
+}
+
+/*==== THE WHOLE NAVIGATION MENU ==== */
+
+            .navigation-menu{
+                width: 100%;
+                height:16%; /*SOS*/
+                background-color: #4c9d7e;
+                color:white;
+               
+                font-size: 16px;
+                font-weight: lighter;
+                display: flex;
+                justify-content: space-between;
+            
+            }
+
+
+            /*==== THE LOGO WRAPPER ==== */
+
+            .logo-wrapper{
+                height: 100%;
+                padding-bottom: 48px;
+            }
+
+            .logo{
+                font-size: 5vh;
+                font-weight: normal;
+                margin: 1.5em 0 0 2.7em;
+            }
+
+
+            /*==== THE CONTACT INFO ==== */
+
+            .navigation-contact{
+                display: flex;
+                flex-direction: column;
+                padding-right: 56px;
+                padding-top: 24px;
+                justify-content: space-between;
+            }
+
+            .contact-info{
+                display: flex;
+                justify-content: flex-end;
+                
+            }  
+
+            .contact{
+                color:white;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.7vh;
+                font-weight: lighter;
+            }
+
+            .contact-phone{
+                margin: 0 24px 0 24px;
+            
+            }
+
+            .contact-mail{
+                margin: 0 0 0 24px;
+            }
+
+
+            /*==== THE ACTUAL MENU ==== */
+            .menu-items{
+                display: flex;
+                justify-content: space-between;
+            }
+
+
+            .menu-items a{
+                text-decoration: none;
+                color: white;
+                list-style: none;
+                font-size: 2.2vh;
+                font-weight: normal;
+                padding: 1em;
+            }
+
+
+           #selected{
+                background-color: white;
+                border-radius: 4px 4px 0 0 ;
+                color: #4c9d7e;
+            }
+            
+
+/* ==== THE FIRST PAGE ABOVE THE FOLD ====*/
+            .first-page{
+                display: flex;  
+                flex-basis: content;
+                height: 84%;
+                overflow: hidden;
+            }
+
+            .left-section {
+                display: flex;
+                flex-direction: column;   
+                width:38%;            
+            }
+
+            .text-wrapper{
+                display:flex;  /*SOS*/
+                margin: auto;
+                flex-direction: column;
+
+            }
+
+            .text-wrapper h2{
+                color:#4c9d7e;
+                font-size: 4.2vh;
+                font-weight: normal;
+                text-align: center;
+                display: block;   /*SOS*/         
+            }
+
+            .text-wrapper p{
+                color:#707070;
+                font-size: 1.7vh;
+                font-weight: 300;
+                line-height: 2em;
+                padding: 0 6.5em;
+                text-align: center;
+                margin-top: 2em;
+                display:block;   /*SOS*/
+            }
+
+
+            .call-to-action{
+                background-color:#4c9d7e ;
+                border:none;
+                border-radius: 8px;
+                color: white;
+                padding: 0.6em;
+                font-size: 24px;
+                font-weight: normal;
+                display: block;
+                margin: auto;
+                margin-top: 3em;
+            }
+
+            .image-wrapper{
+                width: 62%;
+                background-image: url('../assets/Hero-image.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }           
+
+/* ==== THE SECOND PAGE BELOW THE FOLD ====*/
+
+           .second-page{
+                width: 100%;
+                height:100%;
+                display:flex;
+                flex-direction: column;
+            }
+
+            .examination-container{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly; 
+            }
+
+            .cards{
+                display:flex;
+                flex-direction: column;
+
+                width:26vw;
+                height: 57vh;
+
+                margin: 40px 0;
+                border-radius: 8px;
+                box-shadow:0 10px 6px -6px rgba(0,0,0,0.36);
+            }
+
+            .cards .image-container{
+                width: 100%;
+                background-image:url('../assets/Mask\ Group\ 3.png');
+                flex-grow: 1;
+                
+                
+            }            
+
+            .cards h2{
+                text-align: center;
+                display: inline-block;
+                width:100%;
+                background-color: #4c9d7e;
+                color: white;
+                font-size:4.2vh;
+                font-weight: normal;
+               padding:0.8em 0;
+               border-radius: 0 0 8px 8px;
+            }
+
+            .text{
+                text-align: center;
+                
+            }  
+            
+            .text h2{
+                color: #4c9d7e;
+                font-size:4.2vh;
+                font-weight: normal;
+            }
+            
+            .text p{
+                font-size: 1.7vh;
+                font-weight: 300;
+                line-height: 2em;
+                text-align: left;
+                display: block;
+                margin:2.5em auto;
+                width:70%;
+                color:#707070;
+            }
+
+            .text .more-examinations{
+                border:1px solid #4c9d7e;
+                background-color: white;
+                color:#4c9d7e;
+                font-size:2vh;
+                padding:0.7em 2em;
+                border-radius: 4px;
+            }
+            
+/* ==== THE THIRD PAGE BELOW THE FOLD ====*/
+
+            .third-page{
+                width: 100%;
+                height:100%;
+                display:flex;
+            
+            }
+
+            .third-page .text-lab{
+                width: 38%;
+                display:block;
+                margin:auto 0;
+                padding:88px;
+                
+            }
+
+            .third-page h2{
+                text-align: center;
+                color: #4c9d7e;
+                font-size:4.2vh;
+                font-weight: normal;
+            }
+
+            .third-page p{
+                font-size: 1.7vh;
+                font-weight: 300;
+                line-height: 2em;
+                text-align: left;
+                display: block;
+                margin:2.5em auto;
+                width:70%;
+                color: #707070;
+            }
+
+            .third-page .image-lab{
+                width:62%;
+                height:100%;
+                background: url('../assets/Mask\ Group\ 5.png');
+            }
+
+/* ==== THE THIRD PAGE BELOW THE FOLD ====*/
+
+            .fourth-page{
+                width: 100%;
+                height:100%;
+                display:flex;
+                margin-bottom:48px;
+            }
+
+            .fourth-page .text-personell{
+                width: 62%;
+                display:block;
+                margin:auto 0;
+                padding:88px;
+                
+            }
+
+            .fourth-page h2{
+                text-align: center;
+                color: #4c9d7e;
+                font-size:4.2vh;
+                font-weight: normal;
+            }
+
+            .fourth-page p{
+                font-size: 1.7vh;
+                font-weight: 300;
+                line-height: 2em;
+                text-align: left;
+                display: block;
+                margin:2.5em auto;
+                width:70%;
+                color: #707070;
+            }
+
+            .fourth-page .personell-image{
+                width:38%;
+                height:100%;
+                background: url('../assets/Doctor-Photo.png');
+                background-repeat: no-repeat;
+                display:flex;
+                flex-direction: column;
+                justify-content: end;
+                box-shadow: rgba(0,0,0,0.16) -10px 6px 6px;
+            }
+
+            .text-personell .button-wrappers{
+                display:flex;
+                justify-content: center;
+            }
+
+            .personel-button:focus{
+                color:white;
+                background-color:#4c9d7e;
+                border: none;
+            }
+
+            .personel-button{
+                font-size: 2vh;
+                color:#707070;
+                background-color:white;
+                border: none;
+                border-radius: 4px;
+                margin: 9vh 9em;
+                padding: 0.6em;
+            }
+
+            .personell-image h2{
+                background-color: white;
+                color:#707070;
+                font-size:3vh;
+                text-align: center;
+                padding: 1.2em 0;
+            }
+
+/* ==== THE FOOTER ====*/
+            
+            .footer-micro{
+                width:100%;
+                background-color:#4c9d7e;
+                display:flex;
+                justify-content:space-around;
+            }
+
+            .footer-micro .section{
+                color: white;
+                padding: 48px;
+            }
+
+            .info-location-section{
+                width:40%;
+               
+            }
+
+            .info-location-section h1{
+                font-size:4vh;
+                font-weight: normal;
+                border-left: 10px solid white;
+                padding-left: 8px;
+                
+            }
+
+            .info-location-section h4{
+                font-size:2.2vh;
+                font-weight: 300;
+                padding: 0.5em 0;
+                padding-left: 18px;
+            }
+            .info-location-section h2{
+                font-size: 2vh;
+                padding-left: 18px;
+                font-weight: normal;
+                margin-top:4.5em;
+            }
+
+            .info-location-section p{
+                font-size: 1.7vh;
+                font-weight: 300;
+                padding-left: 18px;
+                line-height: 2em;
+                margin-top:1em;
+
+            }
+
+            .services-section{
+                width:30%;
+            }
+
+            .services-section h1{
+                font-size:4vh;
+                font-weight: normal;
+                border-left: 10px solid white;
+                padding-left: 8px;
+            }
+
+            .services-section ul{
+                
+                padding:1.5em 0 0 2em;
+            }
+
+            .services-section ul li{
+                list-style: none;
+               margin-top:1.4em;
+            
+            }
+
+            .services-section ul a{
+                font-size: 2.2vh;
+                font-weight:300;
+                color: white;
+                text-decoration: none;
+                
+            }
+
+            .contact-section{
+                width: 30%;
+            }
+
+            .contact-section h1{
+                font-size:4vh;
+                font-weight: normal;
+                border-left: 10px solid white;
+                padding-left: 8px;
+            }
+
+            .contact-section form{
+                font-size:2.2vh;
+                font-weight: 300;
+                margin-top:4em;
+            }
+
+            .contact-section input{
+                margin-bottom: 3.5em;
+                margin-top: 0.7em;
+            }
+
+            .contact-section input[type = "text"]{
+                border: none;
+                border-radius:4px;
+                font-size:1.5vh;
+                color: #707070;
+                padding:0.6em;
+                width:70%;
+            }
+
+            .contact-section textarea{
+                margin-bottom:3.5em; 
+                margin-top: 0.7em;
+                font-size:1.5vh;
+                color: #707070;
+                border: none;
+                border-radius: 8px;
+                padding: 0.6em;
+                width:70%;
+                line-height:1.5em;
+            }
+
+            .contact-section input[type="submit"]{
+                border:none;
+                color:#4c9d7e;
+                border-radius: 4px;
+                font-size:2.2vh;
+                padding:0.6em;
+                
+            }

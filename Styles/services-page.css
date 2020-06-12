@@ -1,0 +1,298 @@
+/* --STYLES FOR THE FIRST PAGE ---*/
+
+.page-section{
+    display: flex;
+}
+
+.first-page{
+    height: 84%;
+    flex-basis: content;
+    overflow: hidden;
+
+}
+
+.first-page .text-wrapper{
+    width: 62%;
+    margin: auto 0;
+
+
+}
+
+.text-wrapper .service-wrapper{
+    display:flex;
+    justify-content: center;
+}
+
+.text-wrapper h2{
+    text-align: center;
+    color:var(--green-brand-color);
+    font-size:4.2vh;
+    font-weight: normal;
+}
+
+.left-section .services{
+    display: inline-block;
+    margin: 0 5em 1.5em 5em;
+    
+}
+
+.service-wrapper .services li{
+    font-size: 2.2vh;
+    color: var(--gray-brand-color);
+    list-style: none;
+    font-weight:300;
+    margin: 2em 0;
+    padding: 0.5em;
+    
+}
+
+.exam.focused{
+    border-bottom: 4px solid var(--green-brand-color);
+    color: var(--green-brand-color);
+}
+
+.service-wrapper .services a{
+    text-decoration: none;
+    font-size: 2.2vh;
+    color: var(--gray-brand-color);
+    font-weight:300;
+    
+}
+
+/* =========== STYLING THE EXAMS SECTIONS ============= */
+
+.first-page .right-section .examinations-container .exam-container{
+    width: 14.3%;
+    height: 100%;
+}
+
+#blood-section{
+    background-image: url('../assets/Doctor-Photo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*width: 25%;*/
+    height: 100%;
+}
+
+#microbiology{
+    background-image: url('../assets/Hero-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*width: 25%;*/
+    height: 100%;
+}
+
+#biochemical{
+    background-image: url('../assets/Mask\ Group\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*width: 25%;*/
+    height: 100%;
+}
+
+#hormones{
+    background-image: url('../assets/Mask\ Group\ 3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*width: 25%;*/
+    height: 100%;
+}
+
+#imune{
+
+    background-image: url('../assets/Mask\ Group\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*width: 25%;*/
+    height: 100%;
+}
+
+#birth{
+
+    background-image: url('../assets/Mask\ Group\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*width: 25%;*/
+    height: 100%;
+}
+
+#biology{
+    background-image: url('../assets/Hero-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* width: 25%;*/
+    height: 100%;
+}
+
+
+/* ============ END OF EXAM SECTIONS ============ */
+
+.first-page .right-section{
+    width: 38%;
+    margin-top: 2vh;
+    overflow:hidden;
+}
+
+.first-page .right-section .examinations-container{
+    display: inline-flex;
+    width: 700%;
+    height:100%;
+}
+
+.examinations-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-section .examinations{
+    font-size: 1.7vh;
+    color: white;
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.right-section .examinations li{
+    margin: 1.5em 0;
+    list-style: none;
+}
+
+.right-section .examinations a{
+    text-decoration: none;
+    color: white;
+}
+
+.first-page .right-section .examinations-container .exam-container .text-section{
+    background-color:var(--green-brand-color);
+    border-radius: 8px;
+    padding-top: 2.5em;
+}
+
+
+.right-section h2{
+    color:white;
+    font-size: 2.2vh;
+    text-align: center;
+    font-weight: normal;
+}
+
+.right-section p{
+    font-size: 1.7vh;
+    color:white;
+    line-height: 2em;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    font-weight: 300;
+}
+
+.button-rapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.more-exams{
+    color: var(--green-brand-color);
+    border: none;
+    background-color: white;
+    font-size: 1.7vh;
+    font-weight: normal;
+    padding: 0.7em;
+    border-radius: 4px;
+    margin-bottom: 2em;
+}
+
+
+/* --- STYLES FOR THE SECOND PAGE ---*/
+
+.second-page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.second-page h2{
+    text-align: center;
+    color:var(--green-brand-color);
+    font-size: 4.2vh;
+    font-weight: normal;
+
+}
+
+.info-section{
+    display: inline-flex;
+    margin: 5em 0;
+    transition: 1s ease-in-out;
+    
+
+}
+
+.infos-wrapper .info-section.transformation{
+    transform: translateX(-70%);
+}
+
+.infos-wrapper .info-section.transformation-back{
+    transform: translateX(0);
+}
+
+.info-section h2{
+    font-size: 2.2vh;
+    text-align: left;
+}
+
+.info-section p{
+    font-size: 1.7vh;
+    text-align: left;
+    color:var(--gray-brand-color);
+    
+} 
+
+.info-section .info{
+    flex-grow: 1;
+    border-left: 2px solid var(--green-brand-color);
+    padding-left: 1em;
+    width: 200px;
+    margin: 0 3em;
+}
+
+.infos-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    
+    
+}
+#icon-next{
+    position: absolute;
+    right: 20px;
+    top: 52%;
+    width:30px;
+    height: 30px;
+    background-color: rgba(70,70,70,0.1);
+    padding: 10px;
+    border-radius: 50%;
+    filter: invert(55%) sepia(54%) saturate(332%) hue-rotate(105deg)
+        brightness(88%) contrast(91%);
+    
+        transition: 1s ease-in-out; 
+        z-index: 10;
+}
+
+.rotation{
+   
+   transform: rotateZ(180deg);
+  
+}
+
+#icon-wrapper{
+    cursor: pointer;
+    z-index: 10;
+
+
+}
+
+

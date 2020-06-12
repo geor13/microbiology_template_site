@@ -1,0 +1,475 @@
+
+
+/*==== THE WHOLE NAVIGATION MENU ==== */
+
+          
+
+/* ==== THE FIRST PAGE ABOVE THE FOLD ====*/
+            .first-page{
+                display: flex;  
+                flex-basis: content;
+                height: 84%;
+                overflow: hidden;
+            }
+
+            .left-section {
+                display: flex;
+                flex-direction: column;   
+                width:38%;            
+            }
+
+            .text-wrapper{
+                display:flex;  /*SOS*/
+                margin: auto;
+                flex-direction: column;
+
+            }
+
+            .text-wrapper h2{
+                color:var(--green-brand-color);
+                font-size: 4.2vh;
+                font-weight: normal;
+                text-align: center;
+                display: block;   /*SOS*/         
+            }
+
+            .text-wrapper p{
+                color:var(--gray-brand-color);
+                font-size: 1.7vh;
+                font-weight: 300;
+                line-height: 2em;
+                padding: 0 6.5em;
+                text-align: center;
+                margin-top: 2em;
+                display:block;   /*SOS*/
+            }
+
+
+            .call-to-action{
+                background-color:var(--green-brand-color);
+                border:none;
+                border-radius: 8px;
+                color: white;
+                padding: 0.6em;
+                font-size: 24px;
+                font-weight: normal;
+                display: block;
+                margin: auto;
+                margin-top: 3em;
+            }
+
+            .call-to-action:hover{
+                background-color: white;
+                border:2px solid var(--green-brand-color);
+                color: var(--green-brand-color);
+            }
+
+
+            /* === MAKING A SLIDER === */
+
+            .first-page .slider-wrapper{
+                width: 62%;
+                height:100%;
+                overflow: hidden;
+                position: relative;
+               
+            }
+
+            .first-page .image-slider{
+                width: 500%;
+                height: 100%;
+                display: inline-flex;
+            }
+
+            .image-wrapper{
+                width: 20%;
+              
+            }
+
+            #hero-image1{
+                background-image: url('../assets/Hero-image.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+
+            #hero-image2{
+                background-image: url('../assets/Doctor-Photo.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+
+            #hero-image3{
+                background-image: url('../assets/Mask\ Group\ 2.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+
+            #hero-image4{
+                background-image: url('../assets/Mask\ Group\ 3.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+
+            #hero-image5{
+                background-image: url('../assets/Mask\ Group\ 5.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+
+            /* === THE DOTS OF THE SLIDER === */
+            
+            .first-page .slider-wrapper .dots{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                position: absolute;
+                bottom: 0;
+                margin: 1.5em 0;
+            }
+
+            .first-page .slider-wrapper .dots .dot{
+                display:block;
+                width: 20px;
+                height: 20px;
+                border-radius: 20px;
+                background-color: rgba(255,255,255,0.60);
+                margin:0 2em;
+            }
+
+            /* === THE SELECTED DOT === */
+
+            .first-page .slider-wrapper .dots .dot-selected{
+                background-color: rgba(100,100,100,0.6);
+                
+            }
+
+/* ==== THE SECOND PAGE BELOW THE FOLD ====*/
+
+           .second-page{
+                width: 100%;
+                height:100%;
+                display:flex;
+                flex-direction: column;
+            }
+
+            .second-page .examination-container .card-link{
+                text-decoration: none;
+            }
+
+            .examination-container{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly; 
+            }
+
+            .cards{
+                display:flex;
+                flex-direction: column;
+
+                width: 10em;
+                height: 13em;
+                
+                overflow: hidden;
+                margin: 40px 0;
+                border-radius: 8px;
+                box-shadow:0 10px 6px -6px rgba(0,0,0,0.36);
+                transition: all 2.5s;
+                cursor:pointer;
+            }
+
+            .cards .image-container{
+                width: 100%;
+                background-image:url('../assets/Mask\ Group\ 3.png');
+                flex-grow: 1;
+
+                transition: all .5s;
+
+            }
+            
+            .cards:hover .image-container{
+                transform: scale(1.2);
+            }
+
+
+            .cards h2{
+                text-align: center;
+                display: inline-block;
+                width:100%;
+                background-color: var(--green-brand-color);
+                color: white;
+                font-size:4.2vh;
+                font-weight: normal;
+               padding:0.8em 0;
+               border-radius: 0 0 8px 8px;
+                cursor: pointer;
+              
+            }
+
+            .cards h2{
+               z-index: 4;
+            }
+
+            .text{
+                text-align: center;
+                
+            }  
+            
+            .text h2{
+                color: var(--green-brand-color);
+                font-size:4.2vh;
+                font-weight: normal;
+            }
+            
+            .text p{
+                font-size: 1.7vh;
+                font-weight: 300;
+                line-height: 2em;
+                text-align: left;
+                display: block;
+                margin:2.5em auto;
+                width:70%;
+                color:var(--gray-brand-color);
+            }
+
+            .text .more-examinations{
+                border:1px solid var(--green-brand-color);
+                background-color: white;
+                color:var(--green-brand-color);
+                font-size:2vh;
+                padding:0.7em 2em;
+                border-radius: 4px;
+            }
+
+            .text .more-examinations:hover{
+                background-color: var(--green-brand-color);
+                color: white;
+                border: none;
+            }
+            
+/* ==== THE THIRD PAGE BELOW THE FOLD ====*/
+
+            .third-page{
+                width: 100%;
+                height:70%;
+                display:flex;
+            
+            }
+
+            .third-page .text-lab{
+                width: 62%;
+                display:block;
+                margin:auto 0;
+                padding:88px;
+                
+            }
+
+            .third-page h2{
+                text-align: center;
+                color: var(--green-brand-color);
+                font-size:4.2vh;
+                font-weight: normal;
+            }
+
+            .third-page p{
+                font-size: 1.7vh;
+                font-weight: 300;
+                line-height: 2em;
+                text-align: left;
+                display: block;
+                margin:2.5em auto;
+                width:70%;
+                color: var(--gray-brand-color);
+            }
+
+            .third-page .image-lab{
+                width:38%;
+                height:100%;
+                position: relative;
+
+                overflow: hidden;
+                
+            }
+
+            /* === STYLING THE SLIDER === */
+
+            .third-page .image-lab .lab-slider{
+                display: inline-flex;
+                width: 500%;
+                height: 100%;
+            }
+
+            .third-page .image-lab .lab-slider .lab-image{
+                width: 20%;
+                height: 100%;
+            }
+
+             #lab-img1{
+                background: url('../assets/Mask\ Group\ 5.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            #lab-img2{
+                background: url('../assets/Doctor-Photo.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            #lab-img3{
+                background: url('../assets/Hero-image.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            #lab-img4{
+                background: url('../assets/Mask\ Group\ 2.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            #lab-img5{
+                background: url('../assets/Mask\ Group\ 3.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            /* === STYLING THE DOTS === */
+
+            .third-page .image-lab .teleies{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                position: absolute;
+                bottom: 0;
+                margin: 1.5em 0;
+            }
+
+            .third-page .image-lab .teleies .teleia{
+                display:block;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: rgba(255,255,255,0.60);
+                margin:0 1em;
+            }
+
+            /* === THE SELECTED DOT === */
+
+            .third-page .image-lab .teleies .teleia-selected{
+                background-color: rgba(100,100,100,0.6);
+                
+            }
+
+
+
+/* ==== THE FOURTH PAGE BELOW THE FOLD ====*/
+
+            .fourth-page{
+                width: 100%;
+                height:100%;
+                display:flex;
+                margin-bottom:48px;
+            }
+
+            .fourth-page .text-personell{
+                width: 62%;
+                display:block;
+                margin:auto 0;
+                padding:88px;
+                
+            }
+
+            .fourth-page h2{
+                text-align: center;
+                color: var(--green-brand-color);
+                font-size:4.2vh;
+                font-weight: normal;
+            }
+
+            .fourth-page p{
+                font-size: 1.7vh;
+                font-weight: 300;
+                line-height: 2em;
+                text-align: left;
+                display: block;
+                margin:2.5em auto;
+                width:70%;
+                color: var(--gray-brand-color);
+            }
+
+            .fourth-page .left-section{
+                width: 38%;
+                height: 100%;
+                overflow-x: hidden;
+            }
+
+            .fourth-page .left-section-images{
+                width: 100%;
+                height: 100%;
+                display: inline-flex;
+            }
+
+            .fourth-page .personell-image{
+                width: 100%;
+                height:100%;
+                background: url('../assets/Doctor-Photo.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                display:flex;
+                flex-direction: column;
+                justify-content: end;
+            
+            }
+
+            #image2{
+                background: url('../assets/Mask\ Group\ 5.png');
+                display: none;
+            }
+
+            .text-personell .button-wrappers{
+                display:flex;
+                justify-content: center;
+            }
+
+            .fourth-page .text-personell .selected-button{
+                color:white;
+                background-color:var(--green-brand-color);
+                border: none;
+            }
+
+            .personel-button{
+                font-size: 2vh;
+                color:var(--gray-brand-color);
+                background-color:white;
+                border: none;
+                border-radius: 4px;
+                margin: 9vh 9em;
+                padding: 0.6em;
+            }
+
+
+            .personell-image h2{
+                background-color: white;
+                color:var(--gray-brand-color);
+                font-size:3vh;
+                text-align: center;
+                padding: 1.2em 0;
+            }
+            .responsive-buttons-exams{
+                display:none;
+            }
+
+            .displayed-examinations{
+                display: none;
+            }
+
+/* ==== THE FOOTER ====*/
+
+
+          
+         

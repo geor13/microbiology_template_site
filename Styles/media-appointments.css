@@ -1,0 +1,71 @@
+/* === RESPONSIVE STYLES - MOBILE === */
+
+@media screen and (max-width:950px){
+    .first-page{
+        flex-direction: column;
+        height: 100%;
+        margin: 2em 0;
+    }
+
+    .first-page .left-section{
+        width: 90%;
+        height: 120%;
+        margin: 2em auto;
+    }
+
+    .first-page .left-section .content-wrapper{
+        width: 100%;
+        margin: 0;
+    }
+
+
+    #map-wrapper{
+        display: block;
+        /*MORE STYLES !!!! */
+        z-index: -1;
+      
+    }
+
+    .first-page .right-section {
+        width: 90%;
+        /*height: 70%;*/
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .first-page .right-section .text-wrapper{
+        margin: 0;
+        width: 100%;
+    }
+
+    .right-section .text-wrapper table{
+        margin-bottom: 3em;
+    }
+
+
+    .second-page{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+
+    .second-page .left-section{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .second-page .left-section .section-wrapper h2{
+        margin-bottom: -1.5em;
+    }
+
+    .second-page .left-section .section-wrapper{
+        padding:2em 0 0 0 ;
+    }
+
+    .second-page .right-section{
+        display: none;
+    }
+}
